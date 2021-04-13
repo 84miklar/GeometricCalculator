@@ -1,0 +1,13 @@
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.exe
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.deps.json
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.runtimeconfig.json
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.runtimeconfig.dev.json
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.dll
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.pdb
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.csprojAssemblyReference.cache
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.AssemblyInfoInputs.cache
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.AssemblyInfo.cs
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.csproj.CoreCompileInputs.cache
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.dll
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.pdb
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.genruntimeconfig.cache

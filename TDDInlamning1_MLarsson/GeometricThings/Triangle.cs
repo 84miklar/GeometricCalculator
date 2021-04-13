@@ -8,7 +8,8 @@ namespace TDDInlamning1_MLarsson.GeometricThings
     {
         public float Base { get; set; }
         public float Height { get; set; }
-
+        public float Perimeter { get; set; }
+        public float Area { get; set; }
         public Triangle(float tbase, float height)
         {
             this.Base = tbase;

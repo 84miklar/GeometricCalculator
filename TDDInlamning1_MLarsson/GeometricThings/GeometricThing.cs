@@ -8,5 +8,7 @@ namespace TDDInlamning1_MLarsson
     {
         public float Perimeter { get; set; }
         public float Area { get; set; }
+        public float Width { get; set; }
+        public float Height { get; set; }
     }
 }

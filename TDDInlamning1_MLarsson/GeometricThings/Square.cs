@@ -8,6 +8,8 @@ namespace TDDInlamning1_MLarsson.GeometricThings
     {
         public float Width { get; set; }
         public float Height { get; set; }
+        public float Perimeter { get; set; }
+        public float Area { get; set; }
 
         public Square(float width, float height)
         {
