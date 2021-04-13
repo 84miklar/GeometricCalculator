@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jGYjhiaHtBRxX2uqH+RxUxTveM7zAcI1uoHXiVsGkebJINcxkKZBqSKm4wx2puJnuG9c4VxBPJTwyNBYFQGekg==",
+  "dgSpecHash": "WKydj93cOZfbXkZXge6U4x9YFAV/RRVpvSUQfYyNWLiYAO2b+9KyJaVGx4KRB/DfB+QV6o9FMSdBrHCkjz6CUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mikael\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mikael\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Mikael\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512"
+  ],
   "logs": []
 }

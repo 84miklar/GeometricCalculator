@@ -96,3 +96,4 @@ C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarssonTests\
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarssonTests\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarssonTests.dll
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarssonTests\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarssonTests.pdb
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarssonTests\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarssonTests.genruntimeconfig.cache
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarssonTests\bin\Debug\netcoreapp3.1\nunit.framework.dll

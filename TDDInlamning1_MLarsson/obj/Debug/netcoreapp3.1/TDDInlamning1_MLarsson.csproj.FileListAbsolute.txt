@@ -11,3 +11,5 @@ C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\D
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.dll
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.pdb
 C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.genruntimeconfig.cache
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\Mikael\source\repos\TDDInlamning1_MLarsson\TDDInlamning1_MLarsson\obj\Debug\netcoreapp3.1\TDDInlamning1_MLarsson.csproj.CopyComplete

@@ -90,6 +90,16 @@ namespace TDDInlamning1_MLarsson.Tests
             Assert.AreEqual(expected, actual);
         }
 
-
+        [TestMethod()]
+        [DataRow(new float[] { 5f, 6f, 5f, 6f, 6f }, 76.6991f)]
+        public void GetPerimeterTest(float[] arr, float expected)
+        {
+            var geoThings = new GeometricThing[] {
+                new Square(arr[0], arr[1]),
+                new Triangle(arr[2], arr[3]),
+                new Circle(arr[4]) };
+            var actual = geoCal.GetPerimeter(geoThings);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
