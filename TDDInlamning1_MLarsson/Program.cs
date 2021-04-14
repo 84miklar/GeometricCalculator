@@ -5,9 +5,8 @@ namespace TDDInlamning1_MLarsson
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-          
         }
     }
 }

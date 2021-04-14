@@ -1,20 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace TDDInlamning1_MLarsson.GeometricThings
+namespace TDDInlamning1_MLarsson.Tests
 {
-   public class Square : GeometricThing
+    public class Square : GeometricThing
     {
-        public float Width { get; set; }
-        public float Height { get; set; }
-        public float Perimeter { get; set; }
-        public float Area { get; set; }
+        private float Side { get; set; }
 
-        public Square(float width, float height)
+        public Square(float side)
         {
-            this.Width = width;
-            this.Height = height;
+            this.Side = side;
+        }
+
+        public override float GetArea(GeometricThing thing)
+        {
+            Square square = thing as Square;
+            if (square.Side <= 0) return 0;
+
+            square.Area = square.Side * square.Side;
+           return square.NiceRound(square.Area);
+        }
+
+        public override float GetPerimeter(GeometricThing thing)
+        {
+            Square square = thing as Square;
+            if (square.Side < 0 ) return 0;
+
+            square.Perimeter = square.Side * 4;
+            return square.NiceRound(square.Perimeter);
         }
     }
 }
