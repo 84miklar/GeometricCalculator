@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TDDInlamning1_MLarsson
+﻿namespace TDDInlamning1_MLarsson
 {
+    /// <summary>
+    /// Abstract class to be inheritated by different shapes.
+    /// Holds properties Perimeter and Area, and abstract functions GetPerimeter() and GetArea().
+    /// </summary>
    public abstract class GeometricThing
     {
         public float Perimeter { get; set; }

@@ -1,16 +1,16 @@
-﻿using System;
-
-namespace TDDInlamning1_MLarsson.Tests
+﻿namespace TDDInlamning1_MLarsson.Tests
 {
+    /// <summary>
+    /// Class to handle the square shape.
+    /// </summary>
     public class Square : GeometricThing
     {
-        private float Side { get; set; }
-
         public Square(float side)
         {
             this.Side = side;
         }
 
+        private float Side { get; set; }
         public override float GetArea(GeometricThing thing)
         {
             Square square = thing as Square;

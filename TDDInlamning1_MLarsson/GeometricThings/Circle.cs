@@ -1,16 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TDDInlamning1_MLarsson.GeometricThings
+﻿namespace TDDInlamning1_MLarsson.GeometricThings
 {
+    using System;
+    /// <summary>
+    /// Class to handle the circle shape.
+    /// </summary>
     public class Circle : GeometricThing
     {
-        public float Radius { get; set; }
-
         public Circle(float radius)
         {
             this.Radius = radius;
+        }
+
+        public float Radius { get; set; }
+
+        public override float GetArea(GeometricThing thing)
+        {
+            Circle circle = thing as Circle;
+            if (circle.Radius <= 0) return 0;
+
+            circle.Area = MathF.Pow(circle.Radius, 2) * MathF.PI;
+            return circle.NiceRound(circle.Area);
         }
 
         public override float GetPerimeter(GeometricThing thing)
@@ -20,15 +29,6 @@ namespace TDDInlamning1_MLarsson.GeometricThings
 
             circle.Perimeter = circle.Radius * 2 * MathF.PI;
             return circle.NiceRound(circle.Perimeter);
-        }
-
-        public override float GetArea(GeometricThing thing)
-        {
-            Circle circle = thing as Circle;
-            if (circle.Radius <= 0) return 0;
-
-            circle.Area = MathF.Pow(circle.Radius, 2) * MathF.PI;
-            return circle.NiceRound(circle.Area);
         }
     }
 }

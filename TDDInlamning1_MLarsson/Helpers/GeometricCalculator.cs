@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Transactions;
-using System.Linq;
-using TDDInlamning1_MLarsson.GeometricThings;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Collections;
-using TDDInlamning1_MLarsson.Tests;
-
-namespace TDDInlamning1_MLarsson
+﻿namespace TDDInlamning1_MLarsson
 {
-    public class GeometriCalculator
+    using TDDInlamning1_MLarsson.GeometricThings;
+    using TDDInlamning1_MLarsson.Tests;
+
+    /// <summary>
+    /// Class with functions to calculate area and perimeter on different shapes.
+    /// </summary>
+    public class GeometricCalculator
     {
         /// <summary>
         /// Help method to decide which
@@ -97,6 +93,25 @@ namespace TDDInlamning1_MLarsson
                     totalPerimeterOfShapes += GetPerimeter(shape);
                 }
                 return totalPerimeterOfShapes;
+            }
+            return 0;
+        }
+
+        /// <summary>
+        /// Help method to loop through an array of shapes, and send it to GetArea().
+        /// </summary>
+        /// <param name="thing"></param>
+        /// <returns>0 if array is null, or the area sum of all objects.</returns>
+        public float GetArea(GeometricThing[] thing)
+        {
+            if (thing != null)
+            {
+                float totalAreaOfShapes = 0;
+                foreach (var shape in thing)
+                {
+                    totalAreaOfShapes += GetArea(shape);
+                }
+                return totalAreaOfShapes;
             }
             return 0;
         }
