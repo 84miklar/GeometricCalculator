@@ -19,7 +19,8 @@
             if (triangle.Base <= 0 || triangle.Height <= 0) return 0;
 
             triangle.Area = triangle.Base * triangle.Height / 2;
-            return triangle.NiceRound(triangle.Area);
+            return triangle.Area;
+            //return triangle.NiceRound(triangle.Area);
         }
 
         public override float GetPerimeter(GeometricThing thing)
@@ -28,7 +29,8 @@
             if (triangle.Base < 0 || triangle.Height < 0) return 0;
 
             triangle.Perimeter = triangle.Base + triangle.Height * 2;
-            return triangle.NiceRound(triangle.Perimeter);
+            return Perimeter;
+            //return triangle.NiceRound(triangle.Perimeter);
         }
     }
 }

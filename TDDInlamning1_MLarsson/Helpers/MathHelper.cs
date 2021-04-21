@@ -17,16 +17,6 @@
             return MathF.Round(number, 4);
         }
 
-        /// <summary>
-        /// Help method to set expected to actual if they are within 0.0001 of each other.
-        /// </summary>
-        /// <param name="actual"></param>
-        /// <param name="actual"></param>
-        /// <returns>MathAbs(expected-actual) less then 0.0001</returns>
-        public static bool NearlyEqual(float actual, float expected)
-        {
-            return Math.Abs(actual - expected) < 0.0001;
-            // Källa: https://csharp.2000things.com/2011/09/21/416-use-an-epsilon-to-compare-two-floating-point-numbers/
-        }
+      
     }
 }

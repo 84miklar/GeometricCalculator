@@ -1,5 +1,6 @@
 ﻿namespace TDDInlamning1_MLarsson
 {
+    using System;
     using TDDInlamning1_MLarsson.GeometricThings;
     using TDDInlamning1_MLarsson.Tests;
 
@@ -11,7 +12,7 @@
         /// <summary>
         /// Help method to decide which
         /// shape type a GeometricThing is.
-        /// Sends object to the correct GetArea method.
+        /// Sends object to the object's GetArea().
         /// </summary>
         /// <param name="thing"></param>
         /// <returns>0 if thing is null or not suitable, or area value. </returns>
@@ -19,34 +20,35 @@
         {
             if (thing != null)
             {
-                if (thing is Rectangle)
+                var shape = SetObject(thing);
+                return shape.GetArea(thing);
+            }
+            return 0;
+        }
+
+        /// <summary>
+        /// Help method to loop through an array of shapes, and send it to GetArea().
+        /// </summary>
+        /// <param name="thing"></param>
+        /// <returns>0 if array is null, or the area sum of all objects.</returns>
+        public float GetArea(GeometricThing[] thing)
+        {
+            if (thing != null)
+            {
+                float totalAreaOfShapes = 0;
+                foreach (var shape in thing)
                 {
-                    Rectangle rectangle = thing as Rectangle;
-                    return rectangle.GetArea(thing);
+                    totalAreaOfShapes += GetArea(shape);
                 }
-                if (thing is Square)
-                {
-                    Square square = thing as Square;
-                    return square.GetArea(thing);
-                }
-                if (thing is Triangle)
-                {
-                    Triangle triangle = thing as Triangle;
-                    return triangle.GetArea(thing);
-                }
-                if (thing is Circle)
-                {
-                    Circle circle = thing as Circle;
-                    return circle.GetArea(thing);
-                }
+                return totalAreaOfShapes;
             }
             return 0;
         }
 
         /// <summary>
         /// Help method to decide which
-        /// shape type a GeometricThing is. 
-        /// Sends object to the correct GetPerimeter().
+        /// shape type a GeometricThing is.
+        /// Sends object to the object's GetPerimeter().
         /// </summary>
         /// <param name="thing"></param>
         /// <returns>0 if thing is null or not suitable, or perimeter value.</returns>
@@ -54,26 +56,8 @@
         {
             if (thing != null)
             {
-                if (thing is Rectangle)
-                {
-                    Rectangle rectangle = thing as Rectangle;
-                    return rectangle.GetPerimeter(thing);
-                }
-                if (thing is Square)
-                {
-                    Square square = thing as Square;
-                    return square.GetPerimeter(thing);
-                }
-                if (thing is Triangle)
-                {
-                    Triangle triangle = thing as Triangle;
-                    return triangle.GetPerimeter(thing);
-                }
-                if (thing is Circle)
-                {
-                    Circle circle = thing as Circle;
-                    return circle.GetPerimeter(thing);
-                }
+                var shape = SetObject(thing);
+               return shape.GetPerimeter(thing);
             }
             return 0;
         }
@@ -98,22 +82,17 @@
         }
 
         /// <summary>
-        /// Help method to loop through an array of shapes, and send it to GetArea().
+        /// Sets a GeometricThing to a definite shape object.
         /// </summary>
         /// <param name="thing"></param>
-        /// <returns>0 if array is null, or the area sum of all objects.</returns>
-        public float GetArea(GeometricThing[] thing)
+        /// <returns>a definite object of the abstact class GeometricThing</returns>
+        private GeometricThing SetObject(GeometricThing thing)
         {
-            if (thing != null)
-            {
-                float totalAreaOfShapes = 0;
-                foreach (var shape in thing)
-                {
-                    totalAreaOfShapes += GetArea(shape);
-                }
-                return totalAreaOfShapes;
-            }
-            return 0;
+            if (thing is Rectangle rectangle) return rectangle;
+            if (thing is Square square) return square;
+            if (thing is Triangle triangle) return triangle;
+            if (thing is Circle circle) return circle;
+            return null;
         }
     }
 }

@@ -17,7 +17,8 @@
             if (square.Side <= 0) return 0;
 
             square.Area = square.Side * square.Side;
-           return square.NiceRound(square.Area);
+            return Area;
+           //return square.NiceRound(square.Area);
         }
 
         public override float GetPerimeter(GeometricThing thing)
@@ -26,7 +27,8 @@
             if (square.Side < 0 ) return 0;
 
             square.Perimeter = square.Side * 4;
-            return square.NiceRound(square.Perimeter);
+            return Perimeter;
+           // return square.NiceRound(square.Perimeter);
         }
     }
 }

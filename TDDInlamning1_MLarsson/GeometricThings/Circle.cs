@@ -19,7 +19,8 @@
             if (circle.Radius <= 0) return 0;
 
             circle.Area = MathF.Pow(circle.Radius, 2) * MathF.PI;
-            return circle.NiceRound(circle.Area);
+            return circle.Area;
+            //return circle.NiceRound(circle.Area);
         }
 
         public override float GetPerimeter(GeometricThing thing)
@@ -28,7 +29,8 @@
             if (circle.Radius < 0) return 0;
 
             circle.Perimeter = circle.Radius * 2 * MathF.PI;
-            return circle.NiceRound(circle.Perimeter);
+            return circle.Perimeter;
+            //return circle.NiceRound(circle.Perimeter);
         }
     }
 }
