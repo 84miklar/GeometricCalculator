@@ -1,11 +1,8 @@
-﻿using System;
-using TDDInlamning1_MLarsson.GeometricThings;
-
-namespace TDDInlamning1_MLarsson
+﻿namespace TDDInlamning1_MLarsson
 {
-    class Program
+    internal static class Program
     {
-        static void Main()
+      private static void Main()
         {
         }
     }

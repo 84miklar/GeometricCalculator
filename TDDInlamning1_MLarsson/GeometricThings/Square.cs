@@ -10,7 +10,7 @@
             this.Side = side;
         }
 
-        private float Side { get; set; }
+        private float Side { get; }
         public override float GetArea(GeometricThing thing)
         {
             Square square = thing as Square;
@@ -18,7 +18,6 @@
 
             square.Area = square.Side * square.Side;
             return Area;
-           //return square.NiceRound(square.Area);
         }
 
         public override float GetPerimeter(GeometricThing thing)
@@ -28,7 +27,6 @@
 
             square.Perimeter = square.Side * 4;
             return Perimeter;
-           // return square.NiceRound(square.Perimeter);
         }
     }
 }

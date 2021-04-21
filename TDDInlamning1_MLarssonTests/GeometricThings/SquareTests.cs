@@ -1,11 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TDDInlamning1_MLarsson.Tests;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TDDInlamning1_MLarsson.Tests.Tests
+﻿namespace TDDInlamning1_MLarsson.GeometricThings.Tests
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using TDDInlamning1_MLarsson.Tests;
+
     [TestClass()]
     public class SquareTests
     {

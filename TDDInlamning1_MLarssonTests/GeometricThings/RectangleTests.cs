@@ -1,11 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TDDInlamning1_MLarsson.GeometricThings;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TDDInlamning1_MLarsson.GeometricThings.Tests
+﻿namespace TDDInlamning1_MLarsson.GeometricThings.Tests
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass()]
     public class RectangleTests
     {

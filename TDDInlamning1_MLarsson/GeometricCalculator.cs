@@ -1,6 +1,5 @@
 ﻿namespace TDDInlamning1_MLarsson
 {
-    using System;
     using TDDInlamning1_MLarsson.GeometricThings;
     using TDDInlamning1_MLarsson.Tests;
 
@@ -85,7 +84,7 @@
         /// Sets a GeometricThing to a definite shape object.
         /// </summary>
         /// <param name="thing"></param>
-        /// <returns>a definite object of the abstact class GeometricThing</returns>
+        /// <returns>a definite object of the abstract class GeometricThing</returns>
         private GeometricThing SetObject(GeometricThing thing)
         {
             if (thing is Rectangle rectangle) return rectangle;
