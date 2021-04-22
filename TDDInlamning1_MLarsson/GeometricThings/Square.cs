@@ -1,7 +1,7 @@
 ﻿namespace TDDInlamning1_MLarsson.Tests
 {
     /// <summary>
-    /// Class to handle the square shape.
+    /// Class to handle the square object.
     /// </summary>
     public class Square : GeometricThing
     {
@@ -11,22 +11,14 @@
         }
 
         private float Side { get; }
-        public override float GetArea(GeometricThing thing)
+        public override float GetArea()
         {
-            Square square = thing as Square;
-            if (square.Side <= 0) return 0;
-
-            square.Area = square.Side * square.Side;
-            return Area;
+           return Side <= 0 ? 0 : Area = Side * Side;
         }
 
-        public override float GetPerimeter(GeometricThing thing)
+        public override float GetPerimeter()
         {
-            Square square = thing as Square;
-            if (square.Side < 0 ) return 0;
-
-            square.Perimeter = square.Side * 4;
-            return Perimeter;
+            return Side < 0 ? 0 : Perimeter = Side * 4;
         }
     }
 }

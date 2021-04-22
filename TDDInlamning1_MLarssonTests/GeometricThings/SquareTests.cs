@@ -13,7 +13,7 @@
         public void GetArea_SquareTest_NegativeResult(float side, float expected)
         {
             GeometricThing square = new Square(side);
-            var actual = square.GetArea(square);
+            var actual = square.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -23,7 +23,7 @@
         public void GetArea_SquareTest_PositiveResult(float side, float expected)
         {
             GeometricThing square = new Square(side);
-            var actual = square.GetArea(square);
+            var actual = square.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
         [TestMethod()]
@@ -33,7 +33,7 @@
         public void GetPerimeter_SquareTest_NegativeResult(float side, float expected)
         {
             GeometricThing square = new Square(side);
-            var actual = square.GetPerimeter(square);
+            var actual = square.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -43,7 +43,7 @@
         public void GetPerimeter_SquareTest_PositiveResult(float side, float expected)
         {
             GeometricThing square = new Square(side);
-            var actual = square.GetPerimeter(square);
+            var actual = square.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
     }

@@ -12,15 +12,13 @@
         /// <summary>
         /// Calculates the perimeter of a shape.
         /// </summary>
-        /// <param name="thing"></param>
         /// <returns>The perimeter as a float.</returns>
-        public abstract float GetPerimeter(GeometricThing thing);
+        public abstract float GetPerimeter();
 
         /// <summary>
         /// Calculates the area of a shape.
         /// </summary>
-        /// <param name="thing"></param>
         /// <returns>The area as a float.</returns>
-        public abstract float GetArea(GeometricThing thing);
+        public abstract float GetArea();
     }
 }

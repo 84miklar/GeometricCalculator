@@ -4,7 +4,7 @@
     using TDDInlamning1_MLarsson.Tests;
 
     /// <summary>
-    /// Class with functions to calculate area and perimeter on different shapes.
+    /// Class with methods to calculate area and perimeter of different shapes.
     /// </summary>
     public class GeometricCalculator
     {
@@ -20,7 +20,7 @@
             if (thing != null)
             {
                 var shape = SetObject(thing);
-                return shape.GetArea(thing);
+                return shape.GetArea();
             }
             return 0;
         }
@@ -53,10 +53,10 @@
         /// <returns>0 if thing is null or not suitable, or perimeter value.</returns>
         public float GetPerimeter(GeometricThing thing)
         {
-            if (thing != null)
+            if (thing!=null)
             {
                 var shape = SetObject(thing);
-               return shape.GetPerimeter(thing);
+               return shape.GetPerimeter();
             }
             return 0;
         }

@@ -13,7 +13,7 @@
         public void GetArea_TriangleTest_NegativeResult(float tbase, float height, float expected)
         {
             GeometricThing triangle = new Triangle(tbase, height);
-            var actual = triangle.GetArea(triangle);
+            var actual = triangle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -23,7 +23,7 @@
         public void GetArea_TriangleTest_PositiveResult(float tbase, float height, float expected)
         {
             GeometricThing triangle = new Triangle(tbase, height);
-            var actual = triangle.GetArea(triangle);
+            var actual = triangle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
         [TestMethod()]
@@ -32,7 +32,7 @@
         public void GetPerimeter_TriangleTest_NegativeResult(float tbase, float height, float expected)
         {
             GeometricThing triangle = new Triangle(tbase, height);
-            var actual = triangle.GetPerimeter(triangle);
+            var actual = triangle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -43,7 +43,7 @@
         public void GetPerimeter_TriangleTest_PositiveResult(float tbase, float height, float expected)
         {
             GeometricThing triangle = new Triangle(tbase, height);
-            var actual = triangle.GetPerimeter(triangle);
+            var actual = triangle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
     }

@@ -13,7 +13,7 @@
         public void GetArea_RectangleTest_NegativeResult(float width, float height, float expected)
         {
             GeometricThing rectangle = new Rectangle(width, height);
-            var actual = rectangle.GetArea(rectangle);
+            var actual = rectangle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -23,7 +23,7 @@
         public void GetArea_RectangleTest_PostiveResult(float width, float height, float expected)
         {
             GeometricThing rectangle = new Rectangle(width, height);
-            var actual = rectangle.GetArea(rectangle);
+            var actual = rectangle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
         [TestMethod()]
@@ -33,7 +33,7 @@
         public void GetPerimeter_RectangleTest_NegativeResult(float width, float height, float expected)
         {
             GeometricThing rectangle = new Rectangle(width, height);
-            var actual = rectangle.GetPerimeter(rectangle);
+            var actual = rectangle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -44,7 +44,7 @@
         public void GetPerimeter_RectangleTest_PositiveResult(float width, float height, float expected)
         {
             GeometricThing rectangle = new Rectangle(width, height);
-            var actual = rectangle.GetPerimeter(rectangle);
+            var actual = rectangle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
     }

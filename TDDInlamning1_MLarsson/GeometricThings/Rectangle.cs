@@ -1,7 +1,7 @@
 ﻿namespace TDDInlamning1_MLarsson.GeometricThings
 {
     /// <summary>
-    /// Class to handle the rectangle shape.
+    /// Class to handle the rectangle object.
     /// </summary>
     public class Rectangle : GeometricThing
     {
@@ -14,22 +14,14 @@
         public float Height { get; set; }
         public float Width { get; set; }
 
-        public override float GetArea(GeometricThing thing)
+        public override float GetArea()
         {
-            Rectangle rectangle = thing as Rectangle;
-            if (rectangle.Width <= 0 || rectangle.Height <= 0) return 0;
-
-            rectangle.Area = rectangle.Width * rectangle.Height;
-            return Area;
+            return Width <= 0 || Height <= 0 ? 0 : Area = Width * Height;
         }
 
-        public override float GetPerimeter(GeometricThing thing)
+        public override float GetPerimeter()
         {
-            Rectangle rectangle = thing as Rectangle;
-            if (rectangle.Width < 0 || rectangle.Height < 0) return 0;
-
-            rectangle.Perimeter = (rectangle.Width * 2) + (rectangle.Height * 2);
-            return Perimeter;
+            return Width < 0 || Height < 0 ? 0 : Perimeter = (Width * 2) + (Height * 2);
         }
     }
 }

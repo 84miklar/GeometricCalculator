@@ -2,7 +2,7 @@
 {
     using System;
     /// <summary>
-    /// Class to handle the circle shape.
+    /// Class to handle the circle object.
     /// </summary>
     public class Circle : GeometricThing
     {
@@ -13,22 +13,14 @@
 
         public float Radius { get; set; }
 
-        public override float GetArea(GeometricThing thing)
+        public override float GetArea()
         {
-            Circle circle = thing as Circle;
-            if (circle.Radius <= 0) return 0;
-
-            circle.Area = MathF.Pow(circle.Radius, 2) * MathF.PI;
-            return Area;
+            return Radius <= 0 ? 0 : Area = MathF.Pow(Radius, 2) * MathF.PI;
         }
 
-        public override float GetPerimeter(GeometricThing thing)
+        public override float GetPerimeter()
         {
-            Circle circle = thing as Circle;
-            if (circle.Radius < 0) return 0;
-
-            circle.Perimeter = circle.Radius * 2 * MathF.PI;
-            return Perimeter;
+            return Radius < 0 ? 0 : Perimeter = Radius * 2 * MathF.PI;
         }
     }
 }

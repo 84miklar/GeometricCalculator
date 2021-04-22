@@ -12,7 +12,7 @@
         public void GetArea_CircleTest_NegativeResult(float radius, float expected)
         {
             GeometricThing circle = new Circle(radius);
-            var actual = circle.GetArea(circle);
+            var actual = circle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -22,7 +22,7 @@
         public void GetArea_CircleTest_PositiveResult(float radius, float expected)
         {
             GeometricThing circle = new Circle(radius);
-            var actual = circle.GetArea(circle);
+            var actual = circle.GetArea();
             Assert.AreEqual(expected, actual, 0.0001);
         }
         [TestMethod()]
@@ -32,7 +32,7 @@
         public void GetPerimeter_CircleTest_NegativeResult(float radius, float expected)
         {
             GeometricThing circle = new Circle(radius);
-            var actual = circle.GetPerimeter(circle);
+            var actual = circle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
 
@@ -42,7 +42,7 @@
         public void GetPerimeter_CircleTest_PostiveResult(float radius, float expected)
         {
             GeometricThing circle = new Circle(radius);
-            var actual = circle.GetPerimeter(circle);
+            var actual = circle.GetPerimeter();
             Assert.AreEqual(expected, actual, 0.0001);
         }
     }
