@@ -39,7 +39,7 @@
         [TestMethod()]
         [DataRow(6f, 37.6991f)]
         [DataRow(6.123456789f, 38.4748f)]
-        public void GetPerimeter_CircleTest_PostiveResult(float radius, float expected)
+        public void GetPerimeter_CircleTest_PositiveResult(float radius, float expected)
         {
             GeometricThing circle = new Circle(radius);
             var actual = circle.GetPerimeter();
