@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj": {}
+    "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj": {
+    "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
+        "projectUniqueName": "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
         "projectName": "TDDInlamning1_MLarsson",
-        "projectPath": "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
-        "packagesPath": "C:\\Users\\Mikael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\obj\\",
+        "projectPath": "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
+        "packagesPath": "C:\\Users\\mikae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mikael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mikae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,12 +55,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.15, 3.1.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zcXa1DkRp9dilvpgw4oUN/uzqCLA9rAeDSyRsnB8hsuGSHCm7JySrVm7MI9X0WU+/senrrTXgvcmOocVlOZRRw==",
+  "dgSpecHash": "5RE1GE9Fp3BK4blYpk42zJMGnHPTKeQeo7FHmSwgLWlTwpaZ/qxnwj07NgrB/RKeiOVwDUcF3MKWfpxUpq1OVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikael\\source\\repos\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
+  "projectFilePath": "C:\\Users\\mikae\\source\\repos\\GeometricCalculator\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson\\TDDInlamning1_MLarsson.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mikael\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Mikael\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Mikael\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512"
+    "C:\\Users\\mikae\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
+    "C:\\Users\\mikae\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
   ],
   "logs": []
 }
