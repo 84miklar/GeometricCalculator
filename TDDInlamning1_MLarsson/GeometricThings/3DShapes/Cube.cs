@@ -7,6 +7,9 @@ using TDDInlamning1_MLarsson.Tests;
 
 namespace TDDInlamning1_MLarsson.GeometricThings
 {
+    /// <summary>
+    /// Class to handle the cube object.
+    /// </summary>
     public class Cube : GeometricThing
     {
         public Cube(float side)
@@ -29,14 +32,16 @@ namespace TDDInlamning1_MLarsson.GeometricThings
 
         public override float GetPerimeter()
         {
-            throw new NotImplementedException();
+            return Perimeter = Side < 0 ? 0 : MathF.Round(Side * 4, 2);
         }
+
         public override float GetVolume()
         {
-            throw new NotImplementedException();
+            return Volume = Side < 0 ? 0 : MathF.Round(MathF.Pow(Side, 3), 2);
         }
+    }
 
     }
 
-}
+
 
