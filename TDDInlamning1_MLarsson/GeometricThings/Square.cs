@@ -7,7 +7,7 @@
     {
         public Square(float side)
         {
-            this.Side = side;
+            Side = side;
         }
 
         private float Side { get; }
